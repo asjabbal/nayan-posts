@@ -1,0 +1,15 @@
+<div class="row text-center">
+  <div class="col-lg-12 mb-3" style="border-bottom: 5px dashed black;">
+    <h1>Posts</h1>
+  </div>
+
+  <div class="col-lg-12">
+    <% @posts.each do |post| %>
+      <div class="col-lg-12 pt-3 pb-3" style="border-bottom: 2px solid grey;">
+        <div class="col-lg-12 mb-2"><h4><%= post.title %></h4></div>
+        <div class="col-lg-12 mb-2"><%= image_tag(post.image_url, style: "height: 200px; width: 200px;")%></div>
+        <div class="col-lg-12 mb-2"><%= link_to 'View Post', post %></div>
+      </div>
+    <% end %>
+  </div>
+</div>

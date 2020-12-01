@@ -1,0 +1,11 @@
+development:
+  contentful_cd_api:
+    space_id: 39ssl2xprxt8
+    access_token: VB9QIHlKoDbbhpKKdspK2-Se4Qu2QE0PZSUyOFQADCU
+    environment_id: master
+
+production:
+  contentful_cd_api:
+    space_id: 39ssl2xprxt8
+    access_token: VB9QIHlKoDbbhpKKdspK2-Se4Qu2QE0PZSUyOFQADCU
+    environment_id: master
